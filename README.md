@@ -573,9 +573,9 @@ Figma
 
 ![alt text](<figma_page 2.png>)
 
-![alt text](<browser_page 3.png>)
+![alt text](<figma_page 3.png>)
 
-![alt text](<browser_page 4.png>)
+![alt text](<figma_page 4.png>)
 
 Webpage
 
@@ -585,7 +585,7 @@ Webpage
 
 ![alt text](<browser_page 3.png>)
 
-![alt text](<figma_page 4.png>)
+![alt text](<browser_page 4.png>)
 
 # RESULT:
 The program to design, develop and deploy a web application for event registration is completed successfully.
