@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Event Registration - Saveetha Engineering College</title>
+  <style>
+    /* Simple Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 400px;
+      background-color: #ffffff;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      border-radius: 8px;
+    }
+
+    .college-logo {
+      width: 100%;
+      height: auto;
+      margin-top: 20px;
+      display: block;
+    }
+
+    .registration-form {
+      padding: 20px;
+      background-image: url('images/Simple Various Sports Themes Background Wallpaper Image For Free Download - Pngtree.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
+    .form-title {
+      text-align: center;
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 25px;
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 8px;
+      border-radius: 5px;
+    }
+
+    .input-group {
+      margin-bottom: 15px;
+    }
+
+    .input-label {
+      display: block;
+      background-color: #d9d9d9;
+      padding: 5px 10px;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      width: fit-content;
+      border-radius: 3px;
+    }
+
+    .input-field {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #d9d9d9;
+      border-radius: 5px;
+      font-size: 16px;
+      background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    .submit-button {
+      background-color: #d9d9d9;
+      border: none;
+      padding: 8px 25px;
+      font-size: 18px;
+      font-weight: bold;
+      cursor: pointer;
+      display: block;
+      margin: 25px auto 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .submit-button:hover {
+      background-color: #b0b0b0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- College Logo -->
+    <img class="college-logo" src="images/college_logo.png" alt="Saveetha Engineering College Logo">
+    
+    <!-- Registration Form -->
+    <div class="registration-form">
+      <div class="form-title">REGISTER NOW</div>
+      
+      <form>
+        <div class="input-group">
+          <label class="input-label">Name:</label>
+          <input type="text" class="input-field" required>
+        </div>
+        
+        <div class="input-group">
+          <label class="input-label">Department:</label>
+          <input type="text" class="input-field" required>
+        </div>
+        
+        <div class="input-group">
+          <label class="input-label">Event 1:</label>
+          <select class="input-field" required>
+            <option value="">Select an event</option>
+            <option value="volleyball">Volleyball</option>
+            <option value="football">Football</option>
+            <option value="basketball">Basketball</option>
+            <option value="cricket">Cricket</option>
+            <option value="badminton">Badminton</option>
+            <option value="tabletennis">Table Tennis</option>
+            <option value="carrom">Carrom</option>
+            <option value="chess">Chess</option>
+            <option value="highjump">High Jump</option>
+            <option value="longjump">Long Jump</option>
+            <option value="javelin">Javelin Throw</option>
+            <option value="kabaddi">Kabaddi</option>
+            <option value="khokho">Kho-Kho</option>
+            <option value="running">Running Race</option>
+            <option value="relay">Relay Race</option>
+          </select>
+        </div>
+        
+        <div class="input-group">
+          <label class="input-label">Event 2:</label>
+          <select class="input-field">
+            <option value="">Select an event (optional)</option>
+            <option value="volleyball">Volleyball</option>
+            <option value="football">Football</option>
+            <option value="basketball">Basketball</option>
+            <option value="cricket">Cricket</option>
+            <option value="badminton">Badminton</option>
+            <option value="tabletennis">Table Tennis</option>
+            <option value="carrom">Carrom</option>
+            <option value="chess">Chess</option>
+            <option value="highjump">High Jump</option>
+            <option value="longjump">Long Jump</option>
+            <option value="javelin">Javelin Throw</option>
+            <option value="kabaddi">Kabaddi</option>
+            <option value="khokho">Kho-Kho</option>
+            <option value="running">Running Race</option>
+            <option value="relay">Relay Race</option>
+          </select>
+        </div>
+        
+        <div class="input-group">
+          <label class="input-label">Event 3:</label>
+          <select class="input-field">
+            <option value="">Select an event (optional)</option>
+            <option value="volleyball">Volleyball</option>
+            <option value="football">Football</option>
+            <option value="basketball">Basketball</option>
+            <option value="cricket">Cricket</option>
+            <option value="badminton">Badminton</option>
+            <option value="tabletennis">Table Tennis</option>
+            <option value="carrom">Carrom</option>
+            <option value="chess">Chess</option>
+            <option value="highjump">High Jump</option>
+            <option value="longjump">Long Jump</option>
+            <option value="javelin">Javelin Throw</option>
+            <option value="kabaddi">Kabaddi</option>
+            <option value="khokho">Kho-Kho</option>
+            <option value="running">Running Race</option>
+            <option value="relay">Relay Race</option>
+          </select>
+        </div>
+        
+        <div class="input-group">
+          <label class="input-label">Contact No:</label>
+          <input type="tel" class="input-field" required>
+        </div>
+        
+        <div class="input-group">
+          <label class="input-label">Email:</label>
+          <input type="email" class="input-field" required>
+        </div>
+        
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

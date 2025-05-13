@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sports Day Registration - Saveetha Engineering College</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 15px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 412px;
+      text-align: center;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+    }
+
+    .college-logo {
+      width: 100%;
+      max-width: 380px;
+      height: auto;
+      margin: 20px auto;
+      display: block;
+    }
+
+    .image-wrapper {
+      position: relative;
+      width: 100%;
+    }
+
+    .background-image {
+      width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    .buttons {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      width: 70%;
+    }
+
+    .button {
+      text-decoration: none;
+      background-color: #779BE7;
+      color: #0A0952;
+      padding: 15px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      display: block;
+    }
+
+    .button:hover {
+      background-color: #5A7ED0;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    }
+
+    .register-button {
+      background-color: #F2BEF9;
+    }
+
+    .register-button:hover {
+      background-color: #E0A1E8;
+    }
+
+    @media (max-width: 480px) {
+      .buttons {
+        width: 85%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- College Logo -->
+    <img class="college-logo" src="images/college_logo.png" alt="Saveetha Engineering College Logo" />
+    
+    <div class="image-wrapper">
+      <!-- Background Sports Image -->
+      <img class="background-image" src="images/Sports Illustration Vector_ Sports Day Banner Background Vector Stock Vector.jpg" alt="Sports Day Background" />
+      
+      <!-- Action Buttons -->
+      <div class="buttons">
+        <a href="Page 3.html" class="button register-button">REGISTER NOW</a>
+        <a href="login.html" class="button">LOGIN</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

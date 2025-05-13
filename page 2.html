@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Event List - College Project</title>
+    <style>
+      /* Basic Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Body Styles */
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+        background-color: #f4f4f4;
+        
+        background-image: url("images/Athletic Meeting Background Material Map Wallpaper Image For Free Download - Pngtree.jpg");
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+      }
+
+      /* Main Container */
+      .container {
+        background-color: rgba(255, 255, 255, 0.9); 
+        width: 90%;
+        max-width: 380px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        text-align: center;
+        padding: 20px;
+      }
+
+      /* College Logo */
+      .college-logo {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 8px;
+      }
+
+      /* Event Title */
+      .title {
+        font-size: 28px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      /* Event List */
+      .event-list {
+        list-style-type: none;
+        padding: 0;
+        font-size: 16px;
+        color: #555;
+        margin-bottom: 20px;
+        text-align: left;
+      }
+
+      .event-list li {
+        margin: 8px 0;
+        padding-left: 20px;
+        position: relative;
+      }
+      
+      .event-list li:before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #0066cc;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- College Logo -->
+      <img class="college-logo" src="images/college_logo.png" alt="Saveetha Engineering College Logo" />
+
+      <!-- Event Title -->
+      <div class="title">Event List</div>
+
+      <!-- Event List -->
+      <ul class="event-list">
+        <li>Volleyball</li>
+        <li>Football</li>
+        <li>Basketball</li>
+        <li>Cricket</li>
+        <li>Badminton</li>
+        <li>Table Tennis</li>
+        <li>Carrom</li>
+        <li>Chess</li>
+        <li>High Jump</li>
+        <li>Long Jump</li>
+        <li>Javelin Throw</li>
+        <li>Kabaddi</li>
+        <li>Kho-Kho</li>
+        <li>Running Race</li>
+        <li>Relay Race</li>
+      </ul>
+    </div>
+  </body>
+</html>
